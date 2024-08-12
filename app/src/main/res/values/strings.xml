@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KMTest</string>
+    <string name="welcome">Welcome</string>
+    <string name="john_doe">John Doe</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
 </resources>
