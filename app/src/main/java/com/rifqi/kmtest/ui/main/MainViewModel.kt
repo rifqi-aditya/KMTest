@@ -1,4 +1,11 @@
 package com.rifqi.kmtest.ui.main
 
-class MainViewModel {
+import androidx.lifecycle.ViewModel
+
+class MainViewModel() : ViewModel() {
+    fun isPalindrome(sentence: String): Boolean {
+        val cleanedSentence = sentence.replace(Regex("[^A-Za-z]"), "").lowercase()
+        val reversedSentence = cleanedSentence.reversed()
+        return cleanedSentence == reversedSentence
+    }
 }

@@ -4,4 +4,13 @@
     <string name="john_doe">John Doe</string>
     <string name="selected_user_name">Selected User Name</string>
     <string name="choose_a_user">Choose a User</string>
+    <string name="user_image">User Image</string>
+    <string name="check">CHECK</string>
+    <string name="next">NEXT</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="name">Name</string>
+    <string name="back_button">Back Button</string>
+    <string name="third_screen">Third Screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="no_data_available">No data available</string>
 </resources>
