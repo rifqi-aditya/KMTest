@@ -21,8 +21,6 @@ class UsersRepository(private val apiService: ApiService) {
     }
 
     companion object {
-        private const val TAG = "UserRepository"
-
         @Volatile
         private var instance: UsersRepository? = null
         fun getInstance(

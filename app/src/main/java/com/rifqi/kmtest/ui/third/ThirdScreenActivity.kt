@@ -74,8 +74,4 @@ class ThirdScreenActivity : AppCompatActivity() {
             finish()
         }
     }
-
-    companion object {
-        private const val TAG = "ThirdScreenActivity"
-    }
 }
